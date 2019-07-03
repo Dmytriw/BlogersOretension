@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3e13581c-f3ad-4fff-9204-4d85cc227bbb" name="Default" comment="Правка 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="3e13581c-f3ad-4fff-9204-4d85cc227bbb" name="Default" comment="Правка 1" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -780,9 +778,10 @@
     <session id="-1807719361">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -1795,7 +1794,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1838,6 +1836,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1846,7 +1845,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlogersGit/app/scss/sections/popups.scss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlogersStat" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -2448,6 +2447,7 @@
       <workItem from="1562064143372" duration="81000" />
       <workItem from="1562064233523" duration="24721000" />
       <workItem from="1562104091587" duration="12426000" />
+      <workItem from="1562148683852" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="Правка">
       <created>1561646159268</created>
@@ -2516,7 +2516,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5278268000" />
+    <option name="totallyTimeSpent" value="5278445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2530,7 +2530,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.18322147" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.18590604" />
       <window_info id="Structure" order="1" weight="0.24966443" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -2613,20 +2613,8 @@
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp24161/www.gaboarchitects.com/wp-content/themes/gabo-architects/single.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/scp01542/www.gaboarchitects.com/wp-content/themes/gabo-architects/single.php" />
     <entry file="file://$PROJECT_DIR$/app/libs/scroll-lock./scroll-lock.js" />
-    <entry file="file://$PROJECT_DIR$/app/scss/sections/filter_stat.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="90" column="23" selection-start-line="90" selection-start-column="23" selection-end-line="90" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/sections/stat__section.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/sections/filter_stat.scss" />
+    <entry file="file://$PROJECT_DIR$/app/scss/sections/stat__section.scss" />
     <entry file="file://$PROJECT_DIR$/app/scss/layout/settings.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="524">
