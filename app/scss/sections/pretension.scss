@@ -1,0 +1,360 @@
+.preteinsion__section {
+  padding-top: 30px;
+  padding-bottom: 90px;
+}
+
+.preteinsion__title {
+  font-size: 24px;
+  line-height: 28px;
+  color: #192229;
+}
+
+.preteinsion__form {
+  background: #FFFFFF;
+  box-shadow: 0px 3px 10px rgba(0, 73, 129, 0.1);
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: block;
+  margin-top: 20px;
+}
+
+.preteinsion__warning {
+  background: #FFFCE3;
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #192229;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 9px;
+
+  span {
+    font-weight: 500;
+  }
+}
+
+.preteinsion__inputs__group {
+  max-width: 516px;
+  width: 100%;
+  margin-top: 23px;
+}
+
+.preteinsion__label {
+  width: 237px;
+  margin-right: 40px;
+
+  &:nth-child(2) {
+    margin-right: 0;
+  }
+}
+
+.preteinsion__input__name {
+  font-size: 16px;
+  line-height: 19px;
+  color: #192229;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 8px;
+  min-height: 20px;
+
+  a {
+    margin-left: 8px;
+    margin-top: 2px;
+  }
+}
+
+.preteinsion__input {
+  background: #FFFFFF;
+  border: 1px solid #D5DFE4;
+  border-radius: 5px;
+  height: 32px;
+  padding-left: 15px;
+  padding-right: 5px;
+  color: #000 !important;
+  width: 100%;
+  font-size: 14px;
+}
+
+.preteinsion__confirm {
+  margin-top: 24px;
+  width: 100%;
+  align-items: center;
+  align-content: center;
+}
+
+.preteinsion__confirm__title {
+  font-size: 16px;
+  line-height: 19px;
+  color: #192229;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 8px;
+  width: 100%;
+}
+
+.preteinsion__confirm__desc {
+  font-size: 12px;
+  line-height: 14px;
+  color: #6A7B83;
+  width: 100%;
+  margin-bottom: 6px;
+  
+  a {
+    color: #3897F0;
+  }
+}
+
+.preteinsion__confirm__input {
+  width: 237px;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.preteinsion__confirm__copy {
+  width: 136px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #D5DFE4;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: center;
+  color: #192229;
+  margin-left: 12px;
+}
+
+.long__group {
+  width: 100% !important;
+  max-width: 100%;
+  display: block;
+}
+
+.preteinsion__input__desc {
+  font-size: 12px;
+  line-height: 14px;
+  color: #6A7B83;
+  margin-bottom: 6px;
+  display: block;
+  width: 100%;
+}
+
+.preteinsion__textarea {
+  width: 100%;
+  height: 120px;
+  background: #FFFFFF;
+  border: 1px solid #D5DFE4;
+  box-sizing: border-box;
+  border-radius: 5px;
+  color: #000 !important;
+  padding-left: 15px;
+  padding-top: 5px;
+  font-size: 14px;
+  padding-right: 5px;
+}
+
+.preteinsion__radio__input {
+  display: none !important;
+  position: absolute;
+
+  &:checked + label {
+    .preteinsion__radio__false {
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.preteinsion__radio {
+  align-items: center;
+  align-content: center;
+  margin-bottom: 10px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.preteinsion__radio__false {
+  width: 16px;
+  height: 16px;
+  background: #FFFFFF;
+  border: 1px solid #D5DFE4;
+  position: relative;
+  border-radius: 50%;
+
+  &::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: #3897F0;
+    width: 10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    opacity: 0;
+  }
+}
+
+.preteinsion__radio__text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #192229;
+  width: calc(100% - 24px);
+  margin-left: 8px;
+}
+
+
+.preteinsion__photo__content {
+  background: #F2F7FA;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-top: 24px;
+}
+
+.preteinsion__photo__text {
+  font-size: 14px;
+  line-height: 20px;
+  color: #192229;
+  margin-bottom: 12px;
+}
+
+.preteinsion__photo__func {
+  align-items: center;
+  align-content: center;
+}
+
+.preteinsion__photo__link {
+  width: 136px;
+  height: 36px;
+  line-height: 36px;
+  background: #3897F0;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.preteinsion__photo__right {
+  margin-left: 10px;
+  display: none;
+}
+
+.preteinsion__photo__name {
+  font-size: 14px;
+  line-height: 17px;
+  color: #192229;
+}
+
+.preteinsion__photo__remove {
+  font-size: 12px;
+  line-height: 14px;
+  color: #6A7B83;
+  display: block;
+}
+
+.preteinsion__photo__input {
+  display: none;
+}
+
+.preteinsion__submit {
+  width: 181px;
+  height: 36px;
+  line-height: 34px;
+  background: #F9D451;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  color: #192229;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  cursor: pointer;
+  padding: 0;
+}
+
+.error__text {
+  font-size: 12px;
+  line-height: 14px;
+  color: #FF0000;
+  width: 100%;
+  margin-top: 6px;
+  display: none;
+}
+
+.invalid {
+  .error__text {
+    display: block;
+  }
+
+  input {
+    border-color: #FF0000;
+  }
+
+  .preteinsion__radio__false {
+    border-color: #FF0000;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .preteinsion__form {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .preteinsion__title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .preteinsion__warning {
+    line-height: 20px;
+  }
+  .preteinsion__label {
+    width: 100%;
+    margin-right: 0;
+
+    &:nth-child(2) {
+      order: 2;
+      margin-top: 24px;
+    }
+  }
+  .preteinsion__radio {
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+  .preteinsion__radio__false {
+    margin-top: 2px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .preteinsion__confirm__input {
+    width: calc(100% - 148px);
+  }
+  .preteinsion__textarea {
+    height: 280px;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .preteinsion__warning {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .preteinsion__photo__right {
+    width: 100%;
+    margin-top: 6px;
+    margin-left: 0;
+  }
+}
