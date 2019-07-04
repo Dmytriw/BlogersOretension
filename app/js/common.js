@@ -23,8 +23,17 @@ $(function () {
         e.preventDefault();
 
         $('.popup__container').hide();
-
     });
+
+    $('.button__success').click(function (e) {
+        e.preventDefault();
+
+        $('.fieldValid').removeClass('invalid');
+        $('.popup__container').hide();
+        $('form').reset();
+    });
+
+
 
 
     /////////////////////////////////////////////
@@ -93,6 +102,23 @@ $(function () {
     ///////////////////////////////////
     $('.preteinsion__confirm__copy').click(function (e) {
         e.preventDefault();
+    });
+
+
+
+    //Відправка форми
+    $("form").submit(function() {
+        var th = $(this);
+        $.ajax({
+            type: "POST",
+            url: "/mail.php",
+            data: th.serialize()
+        }).done(function() {
+            setTimeout(function(){
+                $('.popup__success').show();
+            }, 100);
+        });
+        return false;
     });
 
 });
