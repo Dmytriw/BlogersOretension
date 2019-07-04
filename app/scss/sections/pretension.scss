@@ -49,6 +49,10 @@
 
   &:nth-child(2) {
     margin-right: 0;
+
+    input {
+      margin-top: 2px;
+    }
   }
 }
 
@@ -128,6 +132,7 @@
   text-align: center;
   color: #192229;
   margin-left: 12px;
+  user-select: none;
 }
 
 .long__group {
