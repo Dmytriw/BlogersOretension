@@ -25,14 +25,6 @@ $(function () {
         $('.popup__container').hide();
     });
 
-    $('.button__success').click(function (e) {
-        e.preventDefault();
-
-        $('.fieldValid').removeClass('invalid');
-        $('.popup__container').hide();
-        $('form').reset();
-    });
-
 
 
 
@@ -115,7 +107,7 @@ $(function () {
             data: th.serialize()
         }).done(function() {
             setTimeout(function(){
-                $('.popup__success').show();
+                $(location).attr('href', '/saccess.html');
             }, 100);
         });
         return false;
